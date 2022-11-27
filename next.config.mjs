@@ -10,8 +10,18 @@ const config = {
   reactStrictMode: true,
   swcMinify: true,
   i18n: {
-    locales: ["en"],
+    locales: ["en", "ua"],
     defaultLocale: "en",
+    domains: [
+      {
+        domain: "anisimovv.agency",
+        defaultLocale: "en",
+      },
+      {
+        domain: "drivrr.co",
+        defaultLocale: "ua",
+      },
+    ],
   },
 };
 export default config;
