@@ -1,7 +1,7 @@
 import React from "react";
 
 const Subdomain1 = () => {
-  return <div>Subdomain1</div>;
+  return <div className="text-red-500">Subdomain1</div>;
 };
 
 export default Subdomain1;
